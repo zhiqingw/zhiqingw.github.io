@@ -6,3 +6,6 @@
 
 /* Give the portrait more breathing room inside the circular frame. */
 .avatar{width:150px;left:0;top:-34px}@media(max-width:600px){.avatar{width:120px;left:0;top:-27px}}
+
+/* Compact sticky section navigation. */
+html{scroll-padding-top:90px}.section-nav{position:sticky;top:0;z-index:20;background:rgba(255,255,255,.97);border-bottom:1px solid var(--line)}.section-nav nav{max-width:1000px;margin:auto;padding:17px 24px;display:flex;justify-content:center;gap:20px;flex-wrap:wrap;font-size:11px;line-height:1.5}.section-nav a{white-space:nowrap;color:var(--muted)}.section-nav a:hover,.section-nav a:focus-visible{color:var(--accent)}@media(max-width:600px){html{scroll-padding-top:120px}.section-nav nav{padding:12px 18px;gap:8px 16px;justify-content:flex-start;font-size:10px}.profile{padding-top:38px}}
